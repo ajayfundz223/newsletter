@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.coco{
+    padding-top: 3%;
+    border: 1px solid;
+    height: 50vh;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+body{
+    background-color: rgb(18, 18, 63);
+}
+.kanan{
+    border: 0.5px solid;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 8px;
+    height: 13%;
+    background-color: rgb(14, 14, 53);
+    color: white;
+    padding-top: 1%;
+
+}
+
+.giggs{
+    width: 80%;
+    margin-left: 5%;
+}
+
+@media (max-width:375px){
+    .kanan{
+        width: 80%;
+    }
+    .take{
+        border: 1px solid;
+        background-color: rgb(34, 34, 73);
+        border-radius: 5px;
+        height: 100%;
+    }
+    .coco{
+        height: 70vh;
+    }
+
+}
+
+@media (max-width:1200px){
+    .coco{
+        border: 1px solid;
+        height: 70vh;
+        width: 80%;
+        border-radius: 20px;
+        margin-top: 25%;
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+    .kanan{
+    padding-top: 4%;
+    }
+}

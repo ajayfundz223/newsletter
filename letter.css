@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Robot", sans-serif;
+    box-sizing: border-box;
+}
+
+.love{
+    flex-direction: column;
+}
+
+.tariq{
+    margin: 5% 3%;
+    padding: 5% 5%;
+    flex-direction: row-reverse;
+
+}
+
+body{
+    font-size: 16px;
+}
+
+.take{
+    border: 1px solid;
+    background-color: rgb(34, 34, 73);
+    border-radius: 5px;
+    height: 30%;
+    border-radius: 8px;
+    padding-bottom: 2%;
+}
+.ghost{
+    font-weight: 700;
+}
+a{
+    text-decoration: none !important;
+}
+.bat{
+    margin-left: 2%;
+}
+
+.ayra{
+    margin-left: 2%;
+}
+.tems{
+    margin-left: 2%;
+}
+
+.fail{
+    background-color: red;
+}
+.correct{
+    background-color: green;
+}
+.james{
+    float: right;
+}
+/* #textarea{
+    background-color: red;
+    opacity: 3;
+} */
+
+@media (max-width:339px){
+    .tariq{
+        width: 100%;
+    }
+    .take{
+        border: 1px solid;
+        background-color: rgb(34, 34, 73);
+        border-radius: 5px;
+        height: 100%;
+    }
+
+}
+
+@media (max-width:1200px){
+    .bat{
+        margin-right: 5%;
+    }
+    
+    .ayra{
+        margin-right: 7%;
+    }
+    .tems{
+        margin-left: 2%;
+    }
+    .take{
+        padding: 0% 1%;
+        border: 1px solid;
+        background-color: rgb(34, 34, 73);
+        border-radius: 10px;
+        height: 10vh;
+        align-items: center;
+    }
+    .tariq{
+        width: 80%;
+        margin: 3%;
+    }
+
+}
